@@ -17,3 +17,15 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
+function openNav() {
+  document.getElementById("sidebar-container").style.width = "17em";
+  document.getElementById("sidebar").style.display = "block";
+  document.getElementById("sidebar-hidden").style.display = "none";
+}
+
+function closeNav() {
+  document.getElementById("sidebar-container").style.width = "5em";
+  document.getElementById("sidebar").style.display = "none";
+  document.getElementById("sidebar-hidden").style.display = "block";
+}
