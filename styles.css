@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 .header {
@@ -12,7 +12,6 @@
   margin-bottom: 0px;
   margin-top: 10px;
 }
-
 
 .box {
   border: 2px solid #000!important;
@@ -258,3 +257,143 @@ footer {
     margin: auto;
   }
 }
+
+/*------------------------ SCROLLING SIDEBAR ------------------------*/
+
+/* 1. Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 2. Make nav sticky */
+main > nav {
+  position: sticky;
+  top: 2rem;
+  align-self: start;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* 3. ScrollSpy active styles */
+.section-nav li.active > a {
+  color: #333;
+  font-weight: 400;
+}
+
+/* Sidebar Navigation */
+.section-nav {
+  padding-left: 0;
+  border-left: 1px solid #efefef;
+}
+
+.section-nav a {
+  text-decoration: none;
+  display: block;
+  padding: .125rem 0;
+  color: #ccc;
+  transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+  color: #666;
+}
+
+/** Poor man's reset **/
+* {
+  box-sizing: border-box;
+}
+
+.scroll_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.scroll_item {
+  margin-left: 1rem;
+}
+
+.scroll_title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/** page layout **/
+main {
+  display: grid;
+  grid-template-columns: 1fr 17em;
+  max-width: 100em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  margin-left: 15px;
+  margin-right: 25px;
+  padding-bottom: 10rem;
+}
+
+:lang(ja-jp) {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.paragraph1 {
+  /* add stuff here */
+}
+
+.scroll_subtitle {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.scroll_subtitle_jap {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.scroll_dates {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.scroll_poem {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.poem_line {
+  font-size: 20px;
+  font-weight: 600;
+  vertical-align: bottom;
+}
+
+.scroll_mid_section {
+  margin-top: 15px;
+}
+
+.poem_image {
+  max-width: 250px;
+}
+
+.scroll_annotation {
+  margin-left: 15px;
+  padding-left: 15px ;
+  text-indent: -15px ;
+  vertical-align: top;
+}
+
+.commentary {
+  font-weight: 400;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.scroll_bold {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/*------------------------ SCROLLING SIDEBAR ------------------------*/
