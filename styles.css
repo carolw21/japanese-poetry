@@ -100,3 +100,141 @@ footer {
   margin-right: 20px;
   margin-left: 50px;
 }
+
+.section_header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 90%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text_body {
+  width: 100%;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+}
+
+.page_title {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.bottom_nav {
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.left {
+  float: left;
+  margin-left: 8%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.right {
+  float: right;
+  margin-right: 8%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.top-spacing {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 772px) {
+  .section_header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section_header a {
+    margin-bottom: 10px;
+  }
+  .left {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .text_body {
+    width: 100%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .text_body {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+  }
+
+  .page_title {
+    font-size: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .left {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .right {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .text_body {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .page_title {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+}
