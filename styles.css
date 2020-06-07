@@ -14,7 +14,6 @@
 }
 
 
-
 .box {
   border: 2px solid #000!important;
   width: 70%;
@@ -68,6 +67,28 @@
   margin: 0;
   font-size: 12px;
   text-align: center;
+}
+
+.word_box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.word_group {
+  display: block;
+  margin-right: 10px;
+  width: auto;
+}
+
+.small-box {
+  border: 2px solid #000!important;
+  width: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  display: inline;
 }
 
 footer {
@@ -128,6 +149,7 @@ footer {
 
 .small-text {
   font-size: 16px;
+  font-weight: 500;
   display: inline;
 }
 
