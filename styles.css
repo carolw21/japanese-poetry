@@ -279,6 +279,7 @@ html {
 
 .scroll_content {
   grid-area: main;
+  margin-right: 20px;
 }
 
 /* 3. ScrollSpy active styles */
