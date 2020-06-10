@@ -16,6 +16,9 @@ window.addEventListener('DOMContentLoaded', () => {
         observer.observe(section);
     });
 
+    // Set height of nav list
+    document.getElementById("outer_scroll").style.height = window.screen.height - 200;
+
 });
 
 function openNav() {

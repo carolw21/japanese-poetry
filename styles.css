@@ -317,6 +317,15 @@ html {
   margin-right: 20px;
 }
 
+.outer_scroll {
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.outer_scroll::-webkit-scrollbar {
+    background: transparent;  /* Make scrollbar invisible */
+}
+
 /* 3. ScrollSpy active styles */
 .section-nav li.active > a {
   color: #333;
