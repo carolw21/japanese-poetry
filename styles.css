@@ -143,6 +143,12 @@ footer {
   max-height: 350px;
 }
 
+.caption {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}
+
 .inline-img {
   margin-right: 20px;
   margin-left: 50px;
