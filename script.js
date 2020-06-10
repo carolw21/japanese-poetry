@@ -17,7 +17,13 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     // Set height of nav list
-    document.getElementById("outer_scroll").style.height = window.screen.height - 200;
+    document.getElementById("outer_scroll").style.height = window.screen.height * 0.85;
+
+});
+
+window.addEventListener('resize', () => {
+  // Set height of nav list
+  document.getElementById("outer_scroll").style.height = window.screen.height * 0.85;
 
 });
 

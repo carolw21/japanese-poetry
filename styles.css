@@ -135,12 +135,13 @@ footer {
 }
 
 .centered-img-vert {
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
   display: block;
   max-width: 60%;
-  max-height: 350px;
+  max-height: 500px;
 }
 
 .caption {
@@ -213,91 +214,6 @@ footer {
 .chunk {
   width: 75px;
 }
-
-@media screen and (max-width: 772px) {
-  .section_header {
-    display: flex;
-    flex-wrap: wrap;
-    width: 260px;
-    margin-top: 40px;
-    text-align: center;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .section_header a {
-    margin-bottom: 10px;
-  }
-  .left {
-    float: left;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    margin-right: 0px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .text_body {
-    width: 100%;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 75%;
-  }
-  .page_title {
-    max-width: 75%;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .text_body {
-    width: 100%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-  }
-
-  .page_title {
-    font-size: 20px;
-    max-width: 80%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .left {
-    float: left;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-  }
-
-  .right {
-    float: right;
-    margin-right: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-  }
-
-  .text_body {
-    width: 100%;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-  }
-  .page_title {
-    font-size: 20px;
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-  }
-  .chunk {
-    padding-right: 0px;
-  }
-}
-
 
 /*------------------------ SCROLLING SIDEBAR ------------------------*/
 
@@ -499,3 +415,117 @@ section {
 }
 
 /*------------------------ SCROLLING SIDEBAR ------------------------*/
+
+@media screen and (max-width: 772px) {
+  .section_header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section_header a {
+    margin-bottom: 10px;
+  }
+  .left {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .text_body {
+    width: 100%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+  }
+  .page_title {
+    max-width: 75%;
+  }
+
+  .scroll_poem {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .poem_line {
+    font-size: 18px;
+    font-weight: 600;
+    vertical-align: bottom;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .text_body {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+  }
+
+  .page_title {
+    font-size: 20px;
+    max-width: 80%;
+  }
+
+  .scroll_poem {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .poem_line {
+    font-size: 15px;
+    font-weight: 600;
+    vertical-align: bottom;
+  }
+
+  .section-nav-hidden {
+    display: block;
+  }
+
+  .section-nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .left {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .right {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .text_body {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  .page_title {
+    font-size: 20px;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .chunk {
+    padding-right: 0px;
+  }
+}
