@@ -368,12 +368,12 @@ section {
 }
 
 .scroll_poem {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .poem_line {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   vertical-align: bottom;
 }
@@ -415,8 +415,49 @@ section {
 }
 
 /*------------------------ SCROLLING SIDEBAR ------------------------*/
+@media screen and (max-width: 900px) {
+  .text_body {
+    width: 100%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+  }
+  .page_title {
+    max-width: 75%;
+  }
 
-@media screen and (max-width: 772px) {
+  .scroll_poem {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .poem_line {
+    font-size: 17px;
+    font-weight: 600;
+    vertical-align: bottom;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .poem_line {
+    font-size: 16px;
+  }
+  .scroll_subtitle {
+    font-size: 20px;
+  }
+  .scroll_subtitle_jap {
+    font-size: 20px;
+  }
+  .scroll_dates {
+    font-size: 18px;
+  }
+  .scroll_poem {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 779px) {
   .section_header {
     display: flex;
     flex-wrap: wrap;
@@ -437,29 +478,20 @@ section {
     margin-bottom: 10px;
     margin-right: 0px;
   }
-}
-
-@media screen and (max-width: 900px) {
-  .text_body {
-    width: 100%;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 75%;
-  }
-  .page_title {
-    max-width: 75%;
-  }
-
-  .scroll_poem {
-    width: 90%;
-    margin: 0 auto;
-  }
-
   .poem_line {
+    font-size: 13px;
+  }
+  .scroll_subtitle {
     font-size: 18px;
-    font-weight: 600;
-    vertical-align: bottom;
+  }
+  .scroll_subtitle_jap {
+    font-size: 18px;
+  }
+  .scroll_dates {
+    font-size: 14px;
+  }
+  .scroll_poem {
+    width: 100%;
   }
 }
 
@@ -478,13 +510,11 @@ section {
   }
 
   .scroll_poem {
-    width: 100%;
+    width: 110%;
     margin: 0 auto;
   }
 
   .poem_line {
-    font-size: 15px;
-    font-weight: 600;
     vertical-align: bottom;
   }
 
@@ -494,6 +524,14 @@ section {
 
   .section-nav {
     display: none;
+  }
+
+  .large-text {
+    font-size: 40px;
+  }
+
+  .box {
+    font-size: 14px;
   }
 }
 
@@ -519,13 +557,23 @@ section {
     margin-right: auto;
     max-width: 100%;
   }
+
   .page_title {
     font-size: 20px;
     max-width: 100%;
     text-align: center;
     margin: auto;
   }
+
   .chunk {
     padding-right: 0px;
+  }
+
+  .large-text {
+    font-size: 30px;
+  }
+
+  .box {
+    font-size: 12px;
   }
 }
